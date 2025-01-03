@@ -1,7 +1,11 @@
-import Image from "next/image";
+import ModeToggle from "@/components/ModeToggle";
+import { Button } from "@/components/ui/button";
+import { SignedIn, SignedOut, SignIn, SignInButton, UserButton } from "@clerk/nextjs";
 
 export default function Home() {
   return (
-    <h1>hello</h1>
+    <div className="relative">
+     <h1>home page content</h1>
+    </div>
   );
 }
